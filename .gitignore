@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Phase 3：LangGraph 会话 checkpointer 落盘目录
+data/
+
+# 本地向量模型（bge-large-en-v1.5 等，单模型 1.3GB，不入库）
+BAAI/
+
+# Virtual environments
+.venv
+.env
+.idea
+
+# Node / frontend
+node_modules/
+web/dist/
+*.local
+
+# 本地开发缓存
+.pytest_cache/
+.superpowers/
+.vite/
+*.log
+
+
