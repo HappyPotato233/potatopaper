@@ -1,8 +1,11 @@
 # 文献雷达（Literature Radar）
 
+本项目只是个练手项目，是对literfy的模仿，您可以查看这里https://literfy.ai/zh/literature-review访问原型，
+本项目侧重点在于多agent工作流的构造实现
 填一个研究方向，系统定时去 arXiv、Semantic Scholar、万方抓新论文，去重后入库。
 你可以就这个方向直接提问，答案带引用；也可以生成多视角综述，改完大纲导出 Word。
 
+技术栈：
 - 前端：Vue 3 + TypeScript，构建后由后端直接托管
 - 后端：FastAPI + SQLAlchemy + MySQL 8
 - 问答：LangGraph 多 Agent 编排，接 OpenAI 兼容接口的大模型
